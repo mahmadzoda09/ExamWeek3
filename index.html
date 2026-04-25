@@ -14,15 +14,41 @@
   </head>
   <body class="bg-[#030303] text-white">
     <header class="max-w-300 m-auto flex items-center justify-between p-[20px]">
-        <img src="src/Logo.png" alt="">
-        <nav class="flex gap-[50px] items-center">
-            <p><a href="#">Home</a></p>
-            <p><a href="src/page2.html">Services</a></p>
-            <p><a href="src/page3.html">Careers</a></p>
-            <p><a href="src/page4.html">Career Details</a></p>
-            <p><a href="src/page5.html">Contact</a></p>
-        </nav>
-        <button class="bg-[#0A84FF] p-[10px_25px] text-[14px] rounded-[10px] font-semibold">Contact Us</button>
+      <img src="src/Logo.png" alt="" />
+      <nav class="hidden lg:flex gap-[50px] items-center">
+        <p><a href="#">Home</a></p>
+        <p><a href="src/page2.html">Services</a></p>
+        <p><a href="src/page3.html">Careers</a></p>
+        <p><a href="src/page4.html">Career Details</a></p>
+        <p><a href="src/page5.html">Contact</a></p>
+      </nav>
+      <button
+        class="bg-[#0A84FF] lg:inline hidden p-[10px_25px] text-[14px] rounded-[10px] font-semibold"
+      >
+        Contact Us
+      </button>
+      <p class="lg:hidden text-[16px] font-bolds">☰</p>
     </header>
+    <main>
+      <section class="max-w-300 m-auto flex flex-col lg:flex-row  justify-between items-center">
+        <aside class="flex flex-col items-start gap-[25px]">
+          <h1 class="text-[36px] lg:text-[68px] font-black">Transforming Data into <span class="bg-[#0A84FF] px-[15px] rounded-[20px]">Decisions</span></h1>
+          <p class="text-[20px]">
+            Leverage the power of machine learning and AI to unlock insights and
+            drive business growth
+          </p>
+          <button
+            class="bg-[#0A84FF] p-[10px_25px] text-[14px] rounded-[10px] font-semibold"
+          >
+            Book a Meeting
+          </button>
+          <nav class="flex items-center">
+            <img src="src/bios.png" alt="" />
+            <p class="text-[18px] font-normal">Over <span class="font-bold">100+</span> clients have worked with us</p>
+          </nav>
+        </aside>
+        <img src="src/robot area.png" alt="">
+      </section>
+    </main>
   </body>
 </html>
