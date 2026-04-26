@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-black text-white">
     <header class="max-w-300 m-auto flex items-center justify-between p-[20px]">
@@ -25,7 +32,7 @@
     </header>
     <main>
       <section
-        class="max-w-300 m-auto flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:items-center bg-[#141414] p-[20px] lg:pl-[50px]  lg:hover:mt-[50px] rounded-[20px] lg:px-[70px] lg:hover:scale-110 transition-all hover:shadow-[0_0_10px_red] duration-500"
+        class="max-w-300 m-auto flex flex-col gap-[30px] lg:flex-row lg:justify-between lg:items-center bg-[#141414] p-[20px] lg:pl-[50px] lg:hover:mt-[50px] rounded-[20px] lg:px-[70px] lg:hover:scale-110 transition-all hover:shadow-[0_0_10px_red] duration-500"
       >
         <aside class="flex flex-col gap-[30px] items-start">
           <h1 class="font-bold lg:text-[30px] text-[24px]">
@@ -42,6 +49,47 @@
           </button>
         </aside>
         <img src="./bag.png" alt="" />
+      </section>
+
+      <section
+        class="bg-[#0B0B0B] lg:mt-[80px] mt-[50px] lg:p-[40px_0] p-[40px_20px] ]"
+      >
+        <div
+          class="max-w-300 m-auto flex flex-col gap-[20px] lg:flex-row lg:justify-between"
+        >
+          <div
+            class="flex lg:gap-[70px] gap-[200px] items-center bg-[#191919] p-[10px_15px] rounded-[30px]"
+          >
+            <p>Departments</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div
+            class="flex lg:gap-[70px] gap-[215px] items-center bg-[#191919] p-[10px_15px] rounded-[30px]"
+          >
+            <p>Experience</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div
+            class="flex lg:gap-[70px] gap-[230px] items-center bg-[#191919] p-[10px_15px] rounded-[30px]"
+          >
+            <p>Job Type</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div
+            class="flex lg:gap-[50px] gap-[183px] items-center bg-[#191919] p-[10px_15px] rounded-[30px]"
+          >
+            <p>Workplace Type</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div
+            class="flex lg:gap-[70px] gap-[134px] items-center bg-[#191919] p-[10px_15px] rounded-[30px]"
+          >
+            <input type="text" placeholder="Search by keywords..." class="outline-none">
+            <nav class="bg-[#459CF3] p-[2px_5px] hidden lg:inline rounded-full">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </nav>
+          </div>
+        </div>
       </section>
     </main>
   </body>
